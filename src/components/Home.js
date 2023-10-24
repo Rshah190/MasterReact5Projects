@@ -1,15 +1,15 @@
 import React from 'react'
 import vg from "../assets/images/2.webp";
-// import {
-//   AiFillGoogleCircle,
-//   AiFillAmazonCircle,
-//   AiFillYoutube,
-//   AiFillInstagram,
-// } from "react-icons/ai";
+import {
+  AiFillGoogleCircle,
+  AiFillAmazonCircle,
+  AiFillYoutube,
+  AiFillInstagram,
+} from "react-icons/ai";
 const Home = () => {
   return (
     <>
-      <div className='home'>
+      <div className='home' id="home">
         <main>
           <h1>TechyStar!</h1>
           <p>Solution to all your problems </p>
@@ -23,7 +23,7 @@ const Home = () => {
             problem solving ability in children. </p>
         </div>
       </div>
-      <div className="home3" id="about">
+      <div className="home3" id="about-us">
         <div>
           <h1>Who we are?</h1>
           <p>
@@ -55,7 +55,7 @@ const Home = () => {
                 animationDelay: "0.3s",
               }}
             >
-              {/* <AiFillGoogleCircle /> */}
+              <AiFillGoogleCircle />
               <p>Google</p>
             </div>
 
@@ -64,7 +64,7 @@ const Home = () => {
                 animationDelay: "0.5s",
               }}
             >
-              {/* <AiFillAmazonCircle /> */}
+              <AiFillAmazonCircle />
               <p>Amazon</p>
             </div>
 
@@ -73,7 +73,7 @@ const Home = () => {
                 animationDelay: "0.7s",
               }}
             >
-              {/* <AiFillYoutube /> */}
+              <AiFillYoutube />
               <p>Youtube</p>
             </div>
 
@@ -82,7 +82,7 @@ const Home = () => {
                 animationDelay: "1s",
               }}
             >
-              {/* <AiFillInstagram /> */}
+              <AiFillInstagram />
               <p>Instagram</p>
             </div>
           </article>
